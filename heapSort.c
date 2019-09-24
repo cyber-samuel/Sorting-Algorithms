@@ -32,7 +32,7 @@ int main() {
 void heapSort(int unsorted[], size_t length) {
 	//build max heap
 	for (int i = length / 2 - 1; i >= 0; i--) 
-        dopify(unsorted, length, i); 
+        	dopify(unsorted, length, i); 
 
 	// start sorting
 	for(int i = length - 1; i >= 0; i--) {
